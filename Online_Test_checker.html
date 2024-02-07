@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="css_own/main.css">
+  
+  <link rel="stylesheet" conhref="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+  integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="js/jquery-1.11.3.min.js"></script>
+
+
+  <script type="text/javascript">
+		$(window).load(function() {
+			$(".loader").fadeOut("slow");
+		})
+	</script>
+
+  
+  
+
+</head>
+<body>
+  <!-- Loader Event-->
+  <div class="loader"></div>
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+<!--Header Section-->  
+<div class="container-fluid">
+<div class="row">
+  <div class="col-sm-12">
+    <center>
+      <a class="navbar-brand" href="index.html" target="_parent">
+     <h1 class="first-heading"> Online Computer Test</h1>
+      </a>
+    </center>
+  </div>
+</div>
+</div> 
+    
+
+<!--Navigation Section-->
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-center sticky-top container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+      aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto pull-right">
+          
+          <li class="nav-item nav-con">
+            <a class="nav-link nav-con mactive active" href="index.html"><i class="fas fa-home icon-styl"></i><span class="sr-only"></span></a>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link nav-con active" href="How_To_Do.html" target="#blank">How To Do</a>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <!--Courses dropdown list -->
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle nav-con active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Course
+            </a>
+            
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item nav-con " href="Web_Designing.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SSC</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+                <a class="dropdown-item nav-con " href="SSCGD_welcome.html">GD</a>
+              <a class="dropdown-item nav-con " href="#">GA</a>
+              </div>
+               <!--
+              
+              -->
+            </div>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <li class="nav-item nav-con">
+            <a class="nav-link active" href="about_us.html" target="#blank" tabindex="-1" aria-disabled="true">About Us</a>
+          </li>
+        </ul>
+      <!--
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      -->
+      </div>
+    </nav>
+
+<!--Banner Section--->  
+
+<br/>
+<div class="bd-example container">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="pjt_img/27.jpg" class="d-block w-100" alt="..." height="500px" >
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="pjt_img/26.jpg" class="d-block w-100" alt="..." height="500px">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="pjt_img/28.jpg" class="d-block w-100" alt="..." height="500px">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </a>
+  </div>
+</div>
+<br/>
+
+<!--Menu Titles-->
+
+<div class="container main-tile">
+  <div class="row">
+      <div class="col-sm-4 tile-col">
+          <img src="pjt_img/23.jpg" class="menu-tile-img img-fluid"><br/><br/>
+          <div class="menu-tile-text">
+            If you select this option then you can see all Web Designing Questions. 
+          </div>
+          <div>
+           <a href="#"><button class="tile-btn">See This</button></a>
+          </div>
+        </div>
+      <div class="col-sm-4 tile-col">
+              <div>
+                <img src="pjt_img/24.jpg" class="menu-tile-img img-fluid">    
+              </div><br/>
+              <div class="menu-tile-text">
+                If you select this option then you can see all Programming Questions.
+              </div>
+              <div>
+               <a href="#"><button class="tile-btn">See This</button></a>
+              </div>
+          </div>
+          <div class="col-sm-4 tile-col">
+               <div>
+                      <img src="pjt_img/25.jpg" class="menu-tile-img img-fluid">
+               </div><br/>
+                <div class="menu-tile-text">
+                        If you select this option then you can see all Database Questions.
+                </div>
+                <div>
+                      <a href="#"><button class="tile-btn">See This</button></a>
+                </div>
+              </div>
+      </div>
+</div>
+<br/>
+
+<!--lower section -->
+<!--
+<div class="container lower-first-block">
+  <div class="row">
+    <div class="col-sm-12" style="background-color:rgb(233, 230, 230);">
+      <div class="row">
+        <div class="col-sm-4 low-first-sec">
+          <h4>SSC</h4>
+          <a href="html_questions.html" target="_blank" class="low-first-sec-con">GD</a><br/>
+          <a href="css_questions.html" target="_blank" class="low-first-sec-con">GA</a><br/>
+          <a href="js_questions.html" target="_blank" class="low-first-sec-con" >MTS</a><br/>
+          <a href="angularjs_questions.html" target="_blank" class="low-first-sec-con">STENOGRAPHER</a><br/>
+          <a href="bootstrap_questions.html" target="_blank" class="low-first-sec-con">CGL</a><br/>
+          <a href="wordpress_questions.html" target="_blank" class="low-first-sec-con">CHSL</a><br/>
+          <a href="php_questions.html" target="_blank" class="low-first-sec-con">CPO</a><br/>
+          <a href="aspdotnet_questions.html" target="_blank" class="low-first-sec-con">JE</ASP></a><br/>
+        </div>
+
+      </div>
+
+
+      
+      <div class="row">
+        <div class="col-sm-4 low-first-sec">
+          <h4>Web Designing</h4>
+          <a href="html_questions.html" target="_blank" class="low-first-sec-con">HTML</a><br/>
+          <a href="css_questions.html" target="_blank" class="low-first-sec-con">CSS</a><br/>
+          <a href="js_questions.html" target="_blank" class="low-first-sec-con" >JAVASCRIPT</a><br/>
+          <a href="angularjs_questions.html" target="_blank" class="low-first-sec-con">ANGULAR JS</a><br/>
+          <a href="bootstrap_questions.html" target="_blank" class="low-first-sec-con">BOOTSTRAP</a><br/>
+          <a href="wordpress_questions.html" target="_blank" class="low-first-sec-con">WORDPRESS</a><br/>
+          <a href="php_questions.html" target="_blank" class="low-first-sec-con">PHP</a><br/>
+          <a href="aspdotnet_questions.html" target="_blank" class="low-first-sec-con">ASP.NET</ASP></a><br/>
+        </div>
+        <div class="col-sm-4 low-first-sec">
+          <h4>SSC GD Test Series</h4>
+          <a href="html_questions.html" target="_blank" class="low-first-sec-con">HTML</a><br/>
+          <a href="css_questions.html" target="_blank" class="low-first-sec-con">CSS</a><br/>
+          <a href="js_questions.html" target="_blank" class="low-first-sec-con" >JAVASCRIPT</a><br/>
+          <a href="angularjs_questions.html" target="_blank" class="low-first-sec-con">ANGULAR JS</a><br/>
+          <a href="bootstrap_questions.html" target="_blank" class="low-first-sec-con">BOOTSTRAP</a><br/>
+          <a href="wordpress_questions.html" target="_blank" class="low-first-sec-con">WORDPRESS</a><br/>
+          <a href="php_questions.html" target="_blank" class="low-first-sec-con">PHP</a><br/>
+          <a href="aspdotnet_questions.html" target="_blank" class="low-first-sec-con">ASP.NET</ASP></a><br/>
+        </div>
+        <div class="col-sm-4 low-first-sec">
+          <h4>Programming</h4>
+          <a href="c_questions.html" target="_blank" class="low-first-sec-con">C</a><br/>
+          <a href="c_plusplus_questions.html" target="_blank" class="low-first-sec-con">C++</a><br/>
+          <a href="c_hash_questions.html" target="_blank" class="low-first-sec-con">C#</a><br/>
+          <a href="java_questions.html" target="_blank" class="low-first-sec-con">JAVA</a><br/>
+          <a href="python_questions.html" target="_blank" class="low-first-sec-con">PYTHON</a><br/>
+          <a href="vbdotnet_questions.html" target="_blank" class="low-first-sec-con">VB.NET</a><br/>
+        </div>
+        <div class="col-sm-4 low-first-sec">
+          <h4>Database</h4>
+          <a href="access_questions.html" target="_blank" class="low-first-sec-con">MS-ACCESS</a><br/>
+          <a href="sql_server_questions.html" target="_blank" class="low-first-sec-con">SQL SERVER</a><br/>
+          <a href="mysql_questions.html" target="_blank" class="low-first-sec-con">MY SQL</a><br/>
+          <a href="oracle_questions.html" target="_blank" class="low-first-sec-con">ORACLE</a><br/>
+          <a href="mongo_questions.html"  target="_blank" class="low-first-sec-con">MONGO DATABASE</a><br/>
+          <a href="foxpro_questions.html" target="_blank" class="low-first-sec-con">FOX PRO</a><br/>
+        </div>
+        </div>
+        -->
+      </div>
+     </div>
+</div>
+<br><br>
+<!--Bottom-section-->
+<div class="container">	
+<footer class="footer">
+  
+    <div class="row" style="text-align:center">
+    <div class="col-md-4 col-sm-4">
+      <h3>Shree Kuma With Yogesh Pal</h3>
+      
+      <p  style="text-align:justify">Shree is web devoloping company. To create an excellent competitive environment in student community by virtue of imparting qualitative education with consolidated strategy and scientific approach to produce proficient professionals. </p>
+    </div>
+    <div class="col-md-4 col-sm-4">
+      <h3>About Us</h3>
+      
+      <p style="text-align:justify">Shree Kumar's aims to work for the holistic enhancement of society by enabling the youths of the nation by helping them to realize their dreams of becoming a Digital buisnessman or to make career in any field they wish thereby pushing India into the que of developed nations..</p>
+    </div>
+    <div class="col-md-4 col-sm-4">
+      <h3>Contact Info</h3>
+      
+      <ul class="contact-list">
+        <li>
+          <p>
+            <i class="fa fa-home"></i>
+            Plot no 18 A, Daud Nagar Faizullaganj, Lucknow UP EAST India. 226020
+          </p>
+          <p>
+            <i class="fa fa-phone"></i>
+            +91-8090451929
+          </p>
+          <p>
+            <i class="fa fa-envelope-o"></i>
+            ShreeKumarverma9@gmail.com
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+</div>	
+    
+  
+   <br/><br/>
+<!--ending icons-->
+<div class="container end-icon">
+  <div class="row">
+    <div class="col-sm-12">
+      <i class="fab fa-facebook ic"></i>&nbsp;&nbsp;
+      <i class="fab fa-twitter twi-ic"></i>&nbsp;&nbsp;
+      <i class="fab fa-instagram insta-ic"></i>&nbsp;&nbsp;
+      <i class="fab fa-whatsapp what-ic"></i>&nbsp;&nbsp;
+    </div>
+  </div>
+</div>
+<br/><br/>
+
+</footer>	
+
+
+</body>
+</html>

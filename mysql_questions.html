@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY SQL Paper</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css_own/test_mysql.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+  integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="pro_js/on_mysql.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="first-heading">MY SQL MCQ : Multiple Choice Questions</h1>
+                <p>1: The main MySQL program that does all the data handling is called<br />
+                    <input type="radio" name="qs1">A. mysql<br />
+                    <input type="radio" name="qs1" id="ans1">B. mysqld<br />
+                    <input type="radio" name="qs1">C. mysql.exe<br />
+                    <input type="radio" name="qs1">D. httpd<br />
+               </p>
+                <p>2: To use MySQL on your computer, you&#8217;ll need<br />
+                    <input type="radio" name="qs2"> A. Perl, PHP or Java<br />
+                    <input type="radio" name="qs2" id="ans2"> B. Some sort of client program to access the databases<br />
+                    <input type="radio" name="qs2"> C. A Browser<br />
+                    <input type="radio" name="qs2">D. FTP and Telnet<br />
+              </p>
+                <p>3: MySQL comes with as standard with client libraries for:<br />
+                    <input type="radio" name="qs3" id="ans3">A. C only<br />
+                    <input type="radio" name="qs3">B. Java only<br />
+                    <input type="radio" name="qs3">C. Java and C<br />
+                    <input type="radio" name="qs3">D. Perl, PHP and C<br />
+                    <input type="radio" name="qs3">E. C, C# and the .NET environment, Java and Python<br />
+               </p>
+                <p>4. What kind of replication is supported by the MySQL server?</strong><br />
+                    <input type="radio" name="qs4">A. Multiple-master replication<br />
+                    <input type="radio" name="qs4" id="ans4">B. Master to slave replication<br />
+                    <input type="radio" name="qs4">C. Single file based clustering<br />
+                    <input type="radio" name="qs4">D. MySQL doesn&#8217;t support replication<br />
+               </p>
+                <p>5: Internally information is held in tables. Which of these is NOT a valid format:</strong><br />
+                    <input type="radio" name="qs5">A. BDB<br />
+                    <input type="radio" name="qs5" id="ans5">B. Isam99<br />
+                    <input type="radio" name="qs5">C. MyIsam<br />
+                    <input type="radio" name="qs5">D. Hash<br />
+                    <input type="radio" name="qs5">E. Isam<br />
+                    <input type="radio" name="qs5">F. InnoDb<br />
+               </p>
+                <p>6: Commands passed to the MySQL daemon are written in<br />
+                    <input type="radio" name="qs6">A. Your choice from Perl, PHP, Java or some other languages<br />
+                    <input type="radio" name="qs6">B. English<br />
+                    <input type="radio" name="qs6" id="ans6"> C. the Structured Query Language<br />
+                    <input type="radio" name="qs6"> D. Swedish<br />
+            </p>
+                <p>7: MySQL supports the complete SQL99 standard</strong><br />
+                    <input type="radio" name="qs7">A. true<br />
+                    <input type="radio" name="qs7" id="ans7">B. false<br />
+               </p>
+                <p>8: Which of these is not a valid name for a column</strong><br />
+                    <input type="radio" name="qs8">A. Far<br />
+                    <input type="radio" name="qs8" id="ans8">B. Near<br />
+                    <input type="radio" name="qs8">C. To<br />
+                    <input type="radio" name="qs8 ">D. From<br />
+                </p>
+                <p>9: In a LIKE clause, you can could ask for any value ending in &#8220;ton&#8221; by writing</strong><br />
+                    <input type="radio" name="qs9"> A. LIKE ton$<br />
+                    <input type="radio" name="qs9">B. LIKE ^.*ton$<br />
+                    <input type="radio" name="qs9" id="ans9"> C. LIKE %ton<br />
+                    <input type="radio" name="qs9">D. LIKE *ton<br />
+                    <input type="radio" name="qs9">E. LIKE .*ton<br />
+                </p>
+                <p>10: Which of the following can add a row to a table?</strong><br />
+                    <input type="radio" name="qs10">A. Alter<br />
+                    <input type="radio" name="qs10">B. Add<br />
+                    <input type="radio" name="qs10" id="ans10">C. Insert<br />
+                    <input type="radio" name="qs10">D. Create<br />
+                    <input type="radio" name="qs10">E. Update<br />
+                    <input type="radio" name="qs10">F. Commit<br />
+                </p>
+                <p>11: Which of these commands will delete a table called XXX if you have appropriate authority:</strong><br />
+                    <input type="radio" name="qs11">A. DROP XXX<br />
+                    <input type="radio" name="qs11">B. DELETE XXX WHERE confirm = &#8220;YES&#8221;<br />
+                    <input type="radio" name="qs11">C. DROP XXX WHERE confirm = &#8220;YES&#8221;<br />
+                    <input type="radio" name="qs11" id="ans11">D. DROP TABLE XXX<br />
+                    <input type="radio" name="qs11">E. DELETE XXX<br />
+                    <input type="radio" name="qs11">F. DELETE TABLE XXX<br />
+                </p>
+                <p>12: The USE command</strong><br />
+                    <input type="radio" name="qs12">A. Is a pseudonym for the SELECT command<br />
+                    <input type="radio" name="qs12">B. Has been deprecated and should be avoided for security reasons<br />
+                    <input type="radio" name="qs12" id="ans12">C. Should be used to choose the database you want to use once you&#8217;ve connected to MySQL<br />
+                    <input type="radio" name="qs12">D. Is used to load code from another file<br />
+                </p>
+                <p>13: In a LIKE clause, you can ask for any 6 letter value by writing:</strong><br />
+                    <input type="radio" name="qs13">A. LIKE ??????<br />
+                    <input type="radio" name="qs13">B. LIKE .{6}<br />
+                    <input type="radio" name="qs13">C. LIKE ^.{6}$<br />
+                    <input type="radio" name="qs13">D. LIKE &#8230;&#8230; (that&#8217;s six dots)<br />
+                    <input type="radio" name="qs13" id="ans13">E. LIKE ______ (that&#8217;s six underscore characters)<br />
+                </p>
+                <p>14: MySQL runs on which operating systems?</strong><br />
+                    <input type="radio" name="qs14">A. Unix and Linux only<br />
+                    <input type="radio" name="qs14">B. Linux and Mac OS-X only<br />
+                    <input type="radio" name="qs14" id="ans14">C. Unix, Linux, Windows and others<br />
+                    <input type="radio" name="qs14">D. Any operating system at all<br />
+               </p>
+                <p>15: MySQL Access security is controlled through</strong><br />
+                    <input type="radio" name="qs15" id="ans15">A. MySQL login accounts, and priveliges set for each account<br />
+                    <input type="radio" name="qs15">B. The ID that the user logged into the server through, and priveliges set up for that account.<br />
+                    <input type="radio" name="qs15">C. A table of valid IP addresses, and priveliges set up for each IP address<br />
+                    <input type="radio" name="qs15">D. The normal login security is sufficient for MySQL, and it does not have any extra controls of its own.<br />
+               </p>
+                <p>16: Which of the following is NOT supported by MySQL</strong><br />
+                    <input type="radio" name="qs16">A. Temporary (Hash) Tables<br />
+                    <input type="radio" name="qs16">B. Table Joining<br />
+                    <input type="radio" name="qs16" id="ans16">C. Stored Procedures<br />
+                    <input type="radio" name="qs16">D. Regular Expression Matching<br />
+               </p>
+                <p>17: One of the early proponents of relational database who laid down many of the principles we use to this day was:</strong><br />
+                    <input type="radio" name="qs17">A. Xigang Koi<br />
+                    <input type="radio" name="qs17">B. Mahatma Coate<br />
+                    <input type="radio" name="qs17" id="ans17">C. Edgar Codd<br />
+                    <input type="radio" name="qs17">D. William Crawford<br />
+                    <input type="radio" name="qs17">E. Robert Langton<br />
+                </p>
+                <p>18: You are required to buy a license for MySQL if</strong><br />
+                    <input type="radio" name="qs18">A. If you use it for longer than 30 days<br />
+                    <input type="radio" name="qs18">B. You use MySQL in a live application and not just for evaluation<br />
+                    <input type="radio" name="qs18" id="ans18"> C. You incorporate it into a product that you sell<br />
+                    <input type="radio" name="qs18">D. You use it on a publicly accessible site<br />
+                    <input type="radio" name="qs18">E. You are never required to buy a license<br />
+                </p>
+                <p>19: Which of these is a valid call to a function (watch the spaces carefully!)</strong><br />
+                    <input type="radio" name="qs19"> A. CONCAT(  A  ,  B  )<br />
+                    <input type="radio" name="qs19">B. CONCAT  (  A  ,  B  )<br />
+                    <input type="radio" name="qs19" id="ans19">C. CONCAT( A  ,  B  )<br />
+                    <input type="radio" name="qs19"> D. CONCAT  (  A  ,  B  )<br />
+                    <input type="radio" name="qs19">E. CONCAT  (A,  B)<br />
+                    <input type="radio" name="qs19">F. CONCAT  (A,  B)<br />
+             </p>
+                <p>20: If you want to undo a GRANT, you should use</strong><br />
+                    <input type="radio" name="qs20" id="ans20"> A. REVOKE<br />
+                    <input type="radio" name="qs20">B. UNDO<br />
+                    <input type="radio" name="qs20">C. UNGRANT<br />
+                    <input type="radio" name="qs20"> D. DELETE<br />
+                    <input type="radio" name="qs20">E. WITHDRAW<br />
+                    <input type="radio" name="qs20">F. ROLLBACK<br />
+                </p>
+                <p>21: How many distinct, different values can you hold in an enum field?</strong><br />
+                    <input type="radio" name="qs21"> A. 255<br />
+                    <input type="radio" name="qs21"> B. 7<br />
+                    <input type="radio" name="qs21" id="ans21"> C. 65535<br />
+                    <input type="radio" name="qs21"> D. 2 (True and False)<br />
+               </p>
+                <p>22: Which of the following is NOT available in MySQL:</strong><br />
+                    <input type="radio" name="qs22">A. REVOKE<br />
+                    <input type="radio" name="qs22" id="ans22"> B. FETCH<br />
+                    <input type="radio" name="qs22"> C. LIKE<br />
+                    <input type="radio" name="qs22">D. JOIN<br />
+                    <input type="radio" name="qs22">E. SELECT<br />
+              </p>
+                <p>23: Which of these field types would be best to hold a film title?</strong><br />
+                    <input type="radio" name="qs23"> A. longblob<br />
+                    <input type="radio" name="qs23" id="ans23"> B. tinytext<br />
+                    <input type="radio" name="qs23"> C. mediumtext<br />
+                    <input type="radio" name="qs23"> D. longtext<br />
+                    <input type="radio" name="qs23">E. tinyblob<br />
+                </p>
+                <p>24: The program called mysql is</strong><br />
+                    <input type="radio" name="qs24">A. There isn&#8217;t a program just called mysql<br />
+                    <input type="radio" name="qs24">B. A wrapper through which Java clients must connect to the databases<br />
+                    <input type="radio" name="qs24" id="ans24">C. A client program that lets you send SQL commands to the database engine<br />
+                    <input type="radio" name="qs24">D. The database engine<br />
+                    <input type="radio" name="qs24">E. A program that starts up and shuts down the database engine<br />
+                </p>
+                <p>25: In a LIKE clause, you can ask for any 6 letter value by writing:</strong><br />
+                    <input type="radio" name="qs25" id="ans25">A. LIKE ______ (that&#8217;s six underscore characters)<br />
+                    <input type="radio" name="qs25">B. LIKE .{6}<br />
+                    <input type="radio" name="qs25">C. LIKE ??????<br />
+                    <input type="radio" name="qs25"> D. LIKE ^.{6}$<br />
+                    <input type="radio" name="qs25">E. LIKE &#8230;&#8230; (that&#8217;s six dots)<br />
+                </p>
+                <p>26: Which of the following is available in MySQL:</strong><br />
+                    <input type="radio" name="qs26"> A. CREATE VIEW<br />
+                    <input type="radio" name="qs26"> B. CREATE SCHEMA<br />
+                    <input type="radio" name="qs26">C. CREATE TRIGGER<br />
+                    <input type="radio" name="qs26" id="ans26">D. CREATE DATABASE<br />
+                    <input type="radio" name="qs26">E. CREATE FAIRYLIGHTS<br />
+                </p>
+                <p>27: Which of these field types would be best to hold a .jpg image?</strong><br />
+                    <input type="radio" name="qs27"> A. char binary<br />
+                    <input type="radio" name="qs27"> B. nchar binary<br />
+                    <input type="radio" name="qs27"> C. text<br />
+                    <input type="radio" name="qs27" id="ans27"> D. blob<br />
+               </p>
+                <p>28: If you&#8217;re writing a client using the C language API, your source code should include the following line at the top:</strong><br />
+                    <input type="radio" name="qs28"> A. use mysql;<br />
+                    <input type="radio" name="qs28">B. include (&#8220;mysql.h&#8221;);<br />
+                    <input type="radio" name="qs28" id="ans28">C. #include &lt;mysql.h&gt;<br />
+                    <input type="radio" name="qs28">D. import com.mysql.*;<br />
+                </p>
+                <p>29: A user with RELOAD priveliges can</strong><br />
+                    <input type="radio" name="qs29">A. Can reset passwords for any mysql user account<br />
+                    <input type="radio" name="qs29" id="ans29">B. Perform certain &#8220;admin type&#8221; operations such as flush table and logs from memory to disc, but can&#8217;t normally do anything &#8220;dangerous&#8221;<br />
+                    <input type="radio" name="qs29">C. Can repopulate the databases and tables from a backup<br />
+                    <input type="radio" name="qs29">D. Can restart the MySQL daemon in addition to any other priveliges he might also have<br />
+                </p>
+                <p>30: What&#8217;s the difference between the DESCRIBE and SHOW FIELDS FROM commands?</strong><br />
+                    <input type="radio" name="qs30"> A. Only SHOW FIELDS FROM can take a LIKE clause<br />
+                    <input type="radio" name="qs30" id="ans30"> B. Nothing &#8211; they&#8217;re the same thing<br />
+                    <input type="radio" name="qs30">C. Only DESCRIBE can take a LIKE clause<br />
+                </p>
+                <p>31: Which of these is not a valid name for a column</strong><br />
+                    <input type="radio" name="qs31">A. To<br />
+                    <input type="radio" name="qs31" id="ans31">B. From<br />
+                    <input type="radio" name="qs31">C. Far<br />
+                    <input type="radio" name="qs31">D. Near<br />
+              </p>
+                <p>32: Commands passed to the MySQL daemon are written in</strong><br />
+                    <input type="radio" name="qs32">A. English<br />
+                    <input type="radio" name="qs32">B. Your choice from Perl, PHP, Java or some other languages<br />
+                    <input type="radio" name="qs32" id="ans32">C. the Structured Query Language<br />
+                    <input type="radio" name="qs32">D. Swedish<br />
+              </p>
+                <p>33: Which of the following is available in MySQL:</strong><br />
+                    <input type="radio" name="qs33">A. CREATE TRIGGER<br />
+                    <input type="radio" name="qs33">B. CREATE SCHEMA<br />
+                    <input type="radio" name="qs33">C. CREATE FAIRYLIGHTS<br />
+                    <input type="radio" name="qs33" id="ans33">D. CREATE DATABASE<br />
+                    <input type="radio" name="qs33">E. CREATE VIEW<br />
+               </p>
+                <p>34: One of the early proponents of relational database who laid down many of the principles we use to this day was:</strong><br />
+                    <input type="radio" name="qs34" id="ans34">A. Edgar Codd<br />
+                    <input type="radio" name="qs34">B. Xigang Koi<br />
+                    <input type="radio" name="qs34">C. Robert Langton<br />
+                    <input type="radio" name="qs34">D. Mahatma Coate<br />
+                    <input type="radio" name="qs34">E. William Crawford<br />
+               </p>
+                <p>35: The main MySQL program that does all the data handling is called<br />
+                    <input type="radio" name="qs35"> A.	mysql<br />
+                    <input type="radio" name="qs35" id="ans35"> B.	mysqld<br />
+                    <input type="radio" name="qs35"> C.	mysql.exe<br />
+                    <input type="radio" name="qs35"> D.	httpd<br />
+                  </p>
+                    <p>36: To use MySQL on your computer, you’ll need<br />
+                        <input type="radio" name="qs36">A.	Perl, PHP or Java<br />
+                        <input type="radio" name="qs36" id="ans36"> B.	Some sort of client program to access the databases<br />
+                        <input type="radio" name="qs36">C.	A Browser<br />
+                        <input type="radio" name="qs36">D.	FTP and Telnet<br />
+                    </p>
+                    <p>37: MySQL comes with as standard with client libraries for:<br />
+                        <input type="radio" name="qs37" id="ans37">A.	C only<br />
+                        <input type="radio" name="qs37"> B.	Java only<br />
+                        <input type="radio" name="qs37"> C.	Java and C<br />
+                        <input type="radio" name="qs37">D.	Perl, PHP and C<br />
+                        <input type="radio" name="qs37"> E.	C, C# and the .NET environment, Java and Python<br />
+                   </p>
+                    <p>38. What kind of replication is supported by the MySQL server?<br />
+                        <input type="radio" name="qs38"> A. Multiple-master replication<br />
+                        <input type="radio" name="qs38" id="ans38"> B. Master to slave replication<br />
+                        <input type="radio" name="qs38"> C. Single file based clustering<br />
+                        <input type="radio" name="qs38"> D. MySQL doesn’t support replication<br />
+                   </p>
+                    <p>39: Internally information is held in tables. Which of these is NOT a valid format:<br />
+                        <input type="radio" name="qs39">A.	BDB<br />
+                        <input type="radio" name="qs39" id="ans39"> B.	Isam99<br />
+                        <input type="radio" name="qs39">C.	MyIsam<br />
+                        <input type="radio" name="qs39">D.	Hash<br />
+                        <input type="radio" name="qs39">E.	Isam<br />
+                        <input type="radio" name="qs39">F.	InnoDb<br />
+                    </p>
+                    <p>40: Commands passed to the MySQL daemon are written in<br />
+                        <input type="radio" name="qs40">A.	Your choice from Perl, PHP, Java or some other languages<br />
+                        <input type="radio" name="qs40">B.	English<br />
+                        <input type="radio" name="qs40" id="ans40">C.	the Structured Query Language<br />
+                        <input type="radio" name="qs40">D.	Swedish<br />
+                    </p>
+                    <p>41: MySQL supports the complete SQL99 standard<br />
+                        <input type="radio" name="qs41">A.	true<br />
+                        <input type="radio" name="qs41" id="ans41">B.	false<br />
+                   </p>
+                    <p>42: Which of these is not a valid name for a column<br />
+                        <input type="radio" name="qs42">A.	Far<br />
+                        <input type="radio" name="qs42" id="ans42">B.	Near<br />
+                        <input type="radio" name="qs42">C.	To<br />
+                        <input type="radio" name="qs42">D.	From<br />
+                   </p>
+                    <p>43: In a LIKE clause, you can could ask for any value ending in “ton” by writing<br />
+                        <input type="radio" name="qs43">A.	LIKE ton$<br />
+                        <input type="radio" name="qs43">B.	LIKE ^.*ton$<br />
+                        <input type="radio" name="qs43" id="ans43">C.	LIKE %ton<br />
+                        <input type="radio" name="qs43"> D.	LIKE *ton<br />
+                        <input type="radio" name="qs43">E.	LIKE .*ton<br />
+                    </p>
+                    <p>44: Which of the following can add a row to a table?<br />
+                        <input type="radio" name="qs44">A.	Alter<br />
+                        <input type="radio" name="qs44">B.	Add<br />
+                        <input type="radio" name="qs44" id="ans44"> C.	Insert<br />
+                        <input type="radio" name="qs44">D.	Create<br />
+                        <input type="radio" name="qs44">E.	Update<br />
+                        <input type="radio" name="qs44">F.	Commit<br />
+                    </p>
+                    <p>45: Which of these commands will delete a table called XXX if you have appropriate authority:<br />
+                        <input type="radio" name="qs45">A.	DROP XXX<br />
+                        <input type="radio" name="qs45">B.	DELETE XXX WHERE confirm = “YES”<br />
+                        <input type="radio" name="qs45">C.	DROP XXX WHERE confirm = “YES”<br />
+                        <input type="radio" name="qs45" id="ans45">D.	DROP TABLE XXX<br />
+                        <input type="radio" name="qs45">E.	DELETE XXX<br />
+                        <input type="radio" name="qs45"> F.	DELETE TABLE XXX<br />
+                  </p>
+                    <p>46: The USE command<br />
+                        <input type="radio" name="qs46">A.	Is a pseudonym for the SELECT command<br />
+                        <input type="radio" name="qs46">B.	Has been deprecated and should be avoided for security reasons<br />
+                        <input type="radio" name="qs46" id="ans46">C.	Should be used to choose the database you want to use once you’ve connected to MySQL<br />
+                        <input type="radio" name="qs46">D.	Is used to load code from another file<br />
+                   </p>
+                    <p>47: In a LIKE clause, you can ask for any 6 letter value by writing:<br />
+                        <input type="radio" name="qs47">A.	LIKE ??????<br />
+                        <input type="radio" name="qs47">B.	LIKE .{6}<br />
+                        <input type="radio" name="qs47">C.	LIKE ^.{6}$<br />
+                        <input type="radio" name="qs47">D.	LIKE …… (that’s six dots)<br />
+                        <input type="radio" name="qs47" id="ans47">E.	LIKE ______ (that’s six underscore characters)<br />
+                    </p>
+                    <p>48: MySQL runs on which operating systems?<br />
+                        <input type="radio" name="qs48">A.	Unix and Linux only<br />
+                        <input type="radio" name="qs48">B.	Linux and Mac OS-X only<br />
+                        <input type="radio" name="qs48" id="ans48">C.	Unix, Linux, Windows and others<br />
+                        <input type="radio" name="qs48">D.	Any operating system at all<br />
+                    </p>
+                    <p>49: MySQL Access security is controlled through<br />
+                        <input type="radio" name="qs49" id="ans49">A.	MySQL login accounts, and priveliges set for each account<br />
+                        <input type="radio" name="qs49">B.	The ID that the user logged into the server through, and priveliges set up for that account.<br />
+                        <input type="radio" name="qs49">C.	A table of valid IP addresses, and priveliges set up for each IP address<br />
+                        <input type="radio" name="qs49">D.	The normal login security is sufficient for MySQL, and it does not have any extra controls of its own.<br />
+                    </p>
+                    <p>50. To Use 'mysqldbcopy' Which Privileges Are Required On The Source Server?</p>
+                    <p>
+                        <input type="radio" name="qs50">CREATE<br/>
+                        <input type="radio" name="qs50" id="ans50">INSERT<br/>
+                        <input type="radio" name="qs50">SELECT<br/>
+                        <input type="radio" name="qs50">UPDATE<br/>
+                    </p>
+                    <br/>
+
+                    <div class="container fill_btn">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <input type="button" name="btn" value="Submit Here...."  onclick="result()" class="sbt-btn">
+                                <br/><br/>
+                                <button onclick="myFunction()" class="snd-btn"><i class="fas fa-home icon-styl"></i> </button>
+                            </div>
+                        </div>
+                    </div>
+                                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

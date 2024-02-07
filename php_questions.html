@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Paper</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css_own/test_php.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+  integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="pro_js/on_php.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="first-heading">PHP MCQ : Multiple Choice Questions</h1>
+                <p>1) Which of the following are not considered as Boolean
+                false?</p>
+            <p><input type="radio" name="qs1" > a. FALSE<br/>
+               <input type="radio" name="qs1" > b. 0<br/>
+               <input type="radio" name="qs1" > c. “0”<br/>
+               <input type="radio" name="qs1" > d. “FALSE”<br/>
+               <input type="radio" name="qs1" > e. 1<br/>
+               <input type="radio" name="qs1" id="ans1">f. a and e both</p>
+                
+            <p>2) Consider the following class:</p>
+                <p> 1. Class Insurance<br/>
+                2.{<br/>
+                3.function clsName()<br/>
+                4.{<br/>
+                5.echo get_class($this);<br/>
+                6.}<br/>
+                7.}<br/>
+                8. $cl = new Insurance();<br/>
+                9. $cl -> clsName();<br/>
+                10. Insurance::clsName();<br/><p>
+                <p>Which of the following Lines should be commented to print
+                the class name without errors?</p>
+                 <p><input type="radio" name="qs2" >a. Line 8 and 9<br/>
+                    <input type="radio" name="qs2" >b. Line 10<br/>
+                    <input type="radio" name="qs2" >c. Line 9 and 10<br/>
+                    <input type="radio" name="qs2" id="ans2">d. All the three lines 8,9, and 10 should be left as it is.</p>
+               
+            <p>3) Variables/functions in PHP don’t work directly with:</p>
+             <p> <input type="radio" name="qs3" > a. echo()<br/>
+                <input type="radio" name="qs3" id="ans3">b. isset()<br/>
+                <input type="radio" name="qs3" >c. print()<br/>
+                <input type="radio" name="qs3" >d. All of the above</p>
+                
+               <p> 4) What is the output of the following code?</p>
+            <p><input type="radio" name="qs4" > a. Array ([x]=>9 [y]=>3 [z]=>-7)<br/>
+                <input type="radio" name="qs4" >b. Array ([x]=>3 [y]=>2 [z]=>5)<br/>
+                <input type="radio" name="qs4" id="ans4">c. Array ([x]=>12 [y]=>5 [z]=>-2)<br/>
+                <input type="radio" name="qs4" >d. Error<br/>
+                <input type="radio" name="qs4" >e. None of the above</p>
+                
+            <p> 5) Which of the following multithreaded servers allow PHP as
+                a plug-in?</p>
+                
+            <p> <input type="radio" name="qs5" >a. Netscape FastTrack<br/>
+                <input type="radio" name="qs5" >b. Microsoft’s Internet Information Server<br/>
+                <input type="radio" name="qs5" >c. O’Reilly’s WebSite Pro<br/>
+                <input type="radio" name="qs5" id="ans5">d. All of the above</p>
+                
+            <p>6) Which of the following statements is incorrect with regard
+                to interfaces?</p>
+            <p><input type="radio" name="qs6" >a. A class can implement multiple interfaces<br/>
+                <input type="radio" name="qs6" >b. An abstract class cannot implement multiple interfaces<br/>
+                <input type="radio" name="qs6" >c. An interface can extend multiple interfaces<br/>
+                <input type="radio" name="qs6" id="ans6">d. Methods with same name, arguments and sequences can
+                exist in the di!erent interfaces implmented by a class</p>
+                
+            <p>7) Which of the following type cast is not correct?<p>
+            <p><input type="radio" name="qs7" >a. real<br/>
+                <input type="radio" name="qs7" >b. double<br/>
+                <input type="radio" name="qs7" id="ans7">c. decimal<br/>
+                <input type="radio" name="qs7" >d. boolean</p>
+               
+            <p>8) What will be the output of the following code?</p>
+        <p>$var = 10;<br/>
+                function fn ()<br/>
+                {<br/>
+                $var = 20;<br/>
+                return $var;<br/>
+                }<br/>
+                fn ();<br/>
+                echo $var;<br/></p>
+            <p><input type="radio" name="qs8" id="ans8">a. 10<br/>
+                <input type="radio" name="qs8" >b. 20<br/>
+                <input type="radio" name="qs8" > c. Unde"ned Variable<br/>
+                <input type="radio" name="qs8" > d. Syntax Error</p>
+                
+            <p> 9) which of the following are the valid PHP data types?</p>
+                
+                <p><input type="radio" name="qs9" >a. resource<br/>
+                <input type="radio" name="qs9" >b. null<br/>
+                <input type="radio" name="qs9" >c. boolean<br/>
+                <input type="radio" name="qs9" >d. string<br/>
+                <input type="radio" name="qs9" >e. Both a and c<br/>
+                <input type="radio" name="qs9" >f. Both b, c and d<br/>
+                <input type="radio" name="qs9" id="ans9"> g. All of the above</p>
+                
+            <p> 10) which of the following characters are taken care of by
+                htmlspecialchars?
+                <input type="radio" name="qs10" > a. < b. ><br/>
+                <input type="radio" name="qs10" > c. single quote<br/>
+                <input type="radio" name="qs10" > d. double quote<br/>
+                <input type="radio" name="qs10" >e. &<br/>
+                <input type="radio" name="qs10" id="ans10">f. All of the above</p>
+                
+            <p>11) What do you infer from the following code?</p>
+             <p><input type="radio" name="qs11" >a. Only "rst character will be recognised and new line will be
+                inserted.<br/>
+                <input type="radio" name="qs11" > b. Last will not be recognised and only "rst two parts will
+                come in new lines.<br/>
+                <input type="radio" name="qs11" >c. All the will work and text will be printed on respective new
+                lines.<br/>
+                <input type="radio" name="qs11" id="ans11">d. All will be printed on one line irrespective of the</p>
+                Ans: d
+            <p>12) which of the following is a correct declaration?</p>
+                <p><input type="radio" name="qs12" id="ans12">a. static $varb = array(1,’val’,3);<br/>
+                    <input type="radio" name="qs12" > b. static $varb = 1+(2*90);<br/>
+                    <input type="radio" name="qs12" > c. static $varb = sqrt(81);<br/>
+                    <input type="radio" name="qs12" > d. static $varb = new Object;</p>
+                Ans: a
+            <p> 13) If visibility is not de"ned for a method/member then it is
+                treated as public static</p>
+              <p><input type="radio" name="qs13" > a. True<br/>
+                <input type="radio" name="qs13" id="ans13"> b. False</p>
+                
+            <p>14) what is true regarding $a + $b where both of them are
+                arrays?</p>
+            <p><input type="radio" name="qs14" >a. Duplicated keys are NOT overwritten<br/>
+                <input type="radio" name="qs14" >b. $b is appended to $a<br/>
+                <input type="radio" name="qs14" >c. The + operator is overloaded<br/>
+                <input type="radio" name="qs14" id="ans14">d. both a and b</p>
+                
+            <p> 15) Which of the following is Ternary Operator?</p>
+            <p><input type="radio" name="qs15" > a. &<br/>
+                <input type="radio" name="qs15" >b. =<br/>
+                <input type="radio" name="qs15" >c. !<br/>
+                <input type="radio" name="qs15" id="ans15"> d. ?:<br/>
+                <input type="radio" name="qs15" > e. +=<br/>
+                <input type="radio" name="qs15" > f. &&</p>
+                
+            <p> 16) Which of the following vairables are supported by
+                ‘str_replace()’ function?</p>
+            <p><input type="radio" name="qs16" >a. Integer<br/>
+                <input type="radio" name="qs16" > b. String<br/>
+                <input type="radio" name="qs16" id="ans16">c. Both b and d <br/>
+                <input type="radio" name="qs16" >d. Array</p>
+                
+            <p>17) which of the following pair have non-associative equal
+                precedence?</p>
+            <p> <input type="radio" name="qs17" >a. +,-<br/>
+                <input type="radio" name="qs17" id="ans17">b. ==, !=<br/>
+                <input type="radio" name="qs17" >c. >!, ||<br/>
+                <input type="radio" name="qs17" > d. &=, |=</p>
+                
+            <p> 18) Which of the following attribute is needed for "le upload
+                via form?</p>
+            <p> <input type="radio" name="qs18" id="ans18">a. enctype=’multipart/form-data’<br/>
+                <input type="radio" name="qs18" >b. enctype=’singlepart/data’<br/>
+                <input type="radio" name="qs18" > c. enctype=’"le’<br/>
+                <input type="radio" name="qs18" >d. enctype=’form-data/"le’</p>
+               
+            <p> 19) Which of the following functions output text?</p>
+            <p> <input type="radio" name="qs19" >a. echo()<br/>
+                <input type="radio" name="qs19" >b. print()<br/>
+                <input type="radio" name="qs19" >c. println()<br/>
+                <input type="radio" name="qs19" id="ans19">d. Both a and b </p>
+                
+            <p>20) The inbuilt function to get the number of parameters
+                passed is:</p>
+            <p><input type="radio" name="qs20" > a. arg_num()<br/>
+                <input type="radio" name="qs20" >b. func_args_count()<br/>
+                <input type="radio" name="qs20" id="ans20"> c. func_num_args()<br/>
+                <input type="radio" name="qs20" >d. None of the above</p>
+                
+            <p>21) Consider the following two statements:</p>
+        <p>I while (expr) statement<br/>
+                II while (expr): statement… endwhile;<br/></p>
+            <p>  Which of the following are true in context of the given
+                statements?</p>
+            <p> <input type="radio" name="qs21" >a. I is correct and II is wrong<br/>
+                <input type="radio" name="qs21" >b. I is wrong and II is correct<br/>
+                <input type="radio" name="qs21" >c. Both I & II are wrong<br/>
+                <input type="radio" name="qs21" id="ans21">d. Both I & II are correct</p>
+              
+            <p> 22) Multiple select/load is possible with:</p>
+            <p><input type="radio" name="qs22" >a. Checkbox<br/>
+                <input type="radio" name="qs22" id="ans22">b. Select<br/>
+                <input type="radio" name="qs22" >c. File<br/>
+                <input type="radio" name="qs22" >d. All of the above</p>
+               
+                
+            <p>23) Which of the following statement is not correct for PHP?</p>
+            <p><input type="radio" name="qs23" >a. It is a server side scripting language<br/>
+                <input type="radio" name="qs23" > b. A PHP "le may contain text, html tags or scripts<br/>
+                <input type="radio" name="qs23" id="ans23">c. It can run on windows and Linux systems only<br/>
+                <input type="radio" name="qs23" >d. It is compatible with most of the common servers used
+                today</p>
+                
+            <p> 24) Which of the following printing construct/function
+                accpets multiple parameters?</p>
+            <p> <input type="radio" name="qs24" id="ans24">a. echo<br/>
+                <input type="radio" name="qs24" >b. print<br/>
+                <input type="radio" name="qs24" >c. printf<br/>
+                <input type="radio" name="qs24" >d. All of the above</p>
+                
+            <p>25) Does PHP provide the goto keyword in latest version?</p>
+            <p> <input type="radio" name="qs25" >  a. Yes<br/>
+                <input type="radio" name="qs25" id="ans25">b. No</p>
+                
+            <p> 26) We have two variable definitions:</p>
+             <p>1. 023<br/>
+                2. x23</p>
+            <p>Choose the correct options:</p>
+            <p> <input type="radio" name="qs26" >a. 1 is octal<br/>
+                <input type="radio" name="qs26" > b. 2 is hexadecimal<br/>
+                <input type="radio" name="qs26"  id="ans26"> c. Both a and b<br/>
+                <input type="radio" name="qs26" >d. None</p>
+                
+            <p>27) Which of the following is not a prede"ned constant?</p>
+            <p><input type="radio" name="qs27" >a. TRUE<br/>
+                <input type="radio" name="qs27" >b. FALSE<br/>
+                <input type="radio" name="qs27" >c. NULL<br/>
+                <input type="radio" name="qs27" id="ans27">d. _FILE_<br/>
+                <input type="radio" name="qs27" >e. CONSTANT</p>
+                
+                
+            <p>28) What will be the output of the following code?</p>
+            <p> $a = 10;<br/>
+                if ($a > 5 OR < 15)<br/>
+                echo ‘true’;<br/>
+                else<br/>
+                echo ‘false’;<br/></p>
+            <p><input type="radio" name="qs28" >a. true<br/>
+                <input type="radio" name="qs28" > b. false<br/>
+                <input type="radio" name="qs28" > c. No output<br/>
+                <input type="radio" name="qs28" id="ans28"> d. Parse Error</p>
+            
+            <p> 29) You need to check the size of a "le in PHP function.</p>
+            <p> $size = X("lename);<br/></p>
+            <p> Which function will suitably replace ‘X’?</p>
+            <p><input type="radio" name="qs29" id="ans29"> a. "lesize<br/>
+                <input type="radio" name="qs29" >b. size<br/>
+                <input type="radio" name="qs29" >c. sizeofFile<br/>
+                <input type="radio" name="qs29" > d. getSize</p>
+            
+            <p> 30) Which of the following vaiables is not related to "le
+                uploads?</p>
+            <p><input type="radio" name="qs30" >a. max_"le_size<br/>
+                <input type="radio" name="qs30" >b. max_execution_time<br/>
+                <input type="radio" name="qs30" >c. post_max_size<br/>
+                <input type="radio" name="qs30" id="ans30">d. max_input_time</p>
+                
+            <p>31) Which of the following variable names are invalid?</p>
+            <p> <input type="radio" name="qs25" >a. $var_1<br/>
+                <input type="radio" name="qs25" > b. $var1<br/>
+                <input type="radio" name="qs25" >c. $var-1<br/>
+                <input type="radio" name="qs25" >d. $var/1<br/>
+                <input type="radio" name="qs25" id="ans31">e. Both c and d</p>
+                
+            <p>32) What will be the output of the following code?</p>
+               
+            <p>function fn (&$var)<br/>
+                {<br/>
+                $var = $var – ($var/10*5);<br/>
+                return $var;<br/>
+                }<br/>
+                echo fn(100);<br/></p>
+            <p><input type="radio" name="qs32" >a. 100<br/>
+                <input type="radio" name="qs32" >b. 50<br/>
+                <input type="radio" name="qs32" > c. 98<br/>
+                <input type="radio" name="qs32" > d. Error message<br/>
+                <input type="radio" name="qs32" id="ans32"> e. None of the above</p>
+                
+            <p> 33) What will be the output of following code?
+                $a = 10;<br/>
+                echo ‘Value of a = $a’;<br/>
+                <input type="radio" name="qs33" id="ans33"> a. Value of a = 10<br/>
+                <input type="radio" name="qs33" > b. Value of a = $a<br/>
+                <input type="radio" name="qs33" > c. Unde"ned<br/>
+                <input type="radio" name="qs33" > d. Syntax Error</p>
+               
+            <p>34) What will be the output of the following code?
+                $Rent = 250;<br/>
+                function Expenses($Other)<br/>
+                {<br/>
+                $Rent = 250 + $Other;<br/>
+                return $Rent;<br/>
+                }<br/>
+                Expenses(50);<br/>
+                echo $Rent;<br/></p>
+            <p> <input type="radio" name="qs34" >a. 300<br/>
+                <input type="radio" name="qs34" id="ans34"> b. 250<br/>
+                <input type="radio" name="qs34" >c. 200<br/>
+                <input type="radio" name="qs34" >d. Program will not compile</p>
+                
+            <p>  35) Which of the following variable declarations within a
+                class is invalid in PHP5?</p>
+            <p> <input type="radio" name="qs35" >a. private $type = ‘moderate’;<br/>
+                <input type="radio" name="qs35" id="ans35"> b. internal $term= 3;<br/>
+                <input type="radio" name="qs35" >c. public $amnt = ‘500’;<br/>
+                <input type="radio" name="qs35" >d. protected $name = ‘Quantas Private Limited’;</p>
+                
+            <p> 36) Which of the following is used to maintain the value of a
+                variable over di!erent pages?</p>
+            <p> <input type="radio" name="qs36" >a. static<br/>
+                <input type="radio" name="qs36" >b. global<br/>
+                <input type="radio" name="qs36" id="ans36">c. session_register<br/>
+                <input type="radio" name="qs36" >d. None of the above</p>
+                
+            <p>37) How would you store order number (34) in an
+                ‘OrderCookie’?</p>
+            <p> <input type="radio" name="qs37" id="ans37">a. setcookie(‘OrderCookie’,34);<br/>
+                <input type="radio" name="qs37" > b. makeCookie(‘OrderCookie’,34);<br/>
+                <input type="radio" name="qs37" > c. Cookie(‘OrderCookie’,34);<br/>
+                <input type="radio" name="qs37" > d. OrderCookie(34);</p>
+                
+            <p>38) The following php variables are declared:</p>
+        <p> $company = ‘ABS Ltd’;<br/>
+                $$company = ‘,Sydney’;<br/></p>
+            <p> Which of the following is not a correct way of printing ‘ABS
+                Ltd,Sydney’?</p>
+            <p><input type="radio" name="qs38" id="ans38">a. echo ‘$company $$company’;<br/>
+                <input type="radio" name="qs38" >b. echo ‘$company ${$company}’;<br/>
+                <input type="radio" name="qs38" >c. echo ‘$company ${‘ABS Ltd’}’;<br/>
+                <input type="radio" name="qs38" >d. echo ‘$company {$$company}’;</p>
+                
+            <p> 39) Which of the following regular expressions can be used
+                to check the validity of an e-mail addresses?</p>
+            <p> <input type="radio" name="qs39" >a. ^[^@ ]+@[^@ ]+.[^@ ]+<br/>
+                <input type="radio" name="qs39" id="ans39">b. ^[^@ ]+@[^@ ]+.[^@ ]+$<br/>
+                <input type="radio" name="qs39" >c. $[^@ ]+@[^@ ]+.[^@ ]+^<br/>
+                <input type="radio" name="qs39" >d. $[^@ ]+@[^@ ]+.[^@ ]+^</p>
+                
+            <p>40) You wrote the following script to check of the right category:</p>
+                </p> Correct category!<br/>
+                Incorrect category!<br/></p>
+            <p>What will be the output of the program if value of ‘cate’
+                remains 5?</p>
+            <p> <input type="radio" name="qs40" id="ans40"> a. Correct category!<br/>
+                <input type="radio" name="qs40" > b. Incorrect category!<br/>
+                <input type="radio" name="qs40" > c. Error due to use of invalid operator in line 6:’if ($cate==5)’<br/>
+                <input type="radio" name="qs40" > d. Error due to incorrect syntax at line 8, 10, 12 and 14</p>
+                
+            <p>41) You are using sessions and session_register() to register
+                objects. These objects are serialized automatically at the end
+                of each PHP page and are de-serialized automatically on
+                each of the following pages. Is this true or false?</p>
+            <p> <input type="radio" name="qs41" id="ans41">a. True<br/>
+                <input type="radio" name="qs41" >b. False</p>
+               
+            <p>  42) Which of the following is not supported in PHP5?</p>
+            <p> <input type="radio" name="qs42" >a. Type Hinting<br/>
+                <input type="radio" name="qs42" >b. Re#ection<br/>
+                <input type="radio" name="qs42" >c. Magic Methods<br/>
+                <input type="radio" name="qs42" id="ans42">d. Multiple Inheritance<br/>
+                <input type="radio" name="qs42" >e. Object Cloning</p>
+                
+            <p>  43) What will be the output of the following code?
+                echo 30*5 . 7;</p>
+            <p> <input type="radio" name="qs43" >a. 150.7<br/>
+                <input type="radio" name="qs43" id="ans43">b. 1507<br/>
+                <input type="radio" name="qs43" >c. 150.7<br/>
+                <input type="radio" name="qs43" > d. you can’t concatenate integers<br/>
+                <input type="radio" name="qs43" > e. error will occur</p>
+                
+            <p>44) In your PHP application you need to open a "le. You want
+                the application to issue a warning and continue execution, in
+                case the "le is not found. The ideal function to be used is:</p>
+            <p> <input type="radio" name="qs44" id="ans44">a. include()<br/>
+                <input type="radio" name="qs44" >b. require()<br/>
+                <input type="radio" name="qs44" >c. nowarn()<br/>
+                <input type="radio" name="qs44" >d. getFile(false)</p>
+                
+            <p>45) What will be the output of the following code?</p>
+            <p> <input type="radio" name="qs45" >a. int(3*4)<br/>
+                <input type="radio" name="qs45" id="ans45">b. int(12)<br/>
+                <input type="radio" name="qs45" >c. 3*4<br/>
+                <input type="radio" name="qs45" >d. 12<br/>
+                <input type="radio" name="qs45" >e. None of the above</p>
+              
+            <p> 46) You need to count the number of parameters given in the
+                URL by a POST operation. The correct way is:</p>
+            <p><input type="radio" name="qs46" >a. count($POST_VARS);<br/>
+                <input type="radio" name="qs46" >b. count($POST_VARS_PARAM);<br/>
+                <input type="radio" name="qs46" id="ans46">c. count($_POST);<br/>
+                <input type="radio" name="qs46" > d. count($HTTP_POST_PARAM);</p>
+                
+            <p>47) Which of the following is correct with regard to echo and
+                print?</p>
+            <p> <input type="radio" name="qs47" > a. echo is a construct and print is a function<br/>
+                <input type="radio" name="qs47" > b. echo is a function and print is a construct<br/>
+                <input type="radio" name="qs47" >c. Both are functions<br/>
+                <input type="radio" name="qs47" id="ans47">d. Both are constructs</p>
+            
+            <p> 48) Which of the following functions output text?</p>
+                </p>
+                <input type="radio" name="qs48" >a. echo()<br/>
+                <input type="radio" name="qs48" >b. print()<br/>
+                <input type="radio" name="qs48" >c. println()<br/>
+                <input type="radio" name="qs48" id="ans48">d. Both a and b </p>
+                
+            <p>49) How would you start a session?</p>
+            <input type="radio" name="qs49" >a. session(start);<br/>
+            <input type="radio" name="qs49" >b. session();<br/>
+            <input type="radio" name="qs49" id="ans49">c. session_start();<br/>
+            <input type="radio" name="qs49" >d. begin_session();</p>
+                
+            <p> 50) What will be the output of following code?</p>
+            <p>$a = 10;<br/>
+                echo ‘Value of a = $a’;<br/></p>
+            <p> <input type="radio" name="qs50" id="ans50">a. Value of a = 10<br/>
+                <input type="radio" name="qs50" >b. Value of a = $a<br/>
+                <input type="radio" name="qs50" >c. Undefined<br/>
+                <input type="radio" name="qs50" >d. Syntax Error</p>
+                <div class="container fill_btn">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <input type="button" name="btn" value="Submit Here...."  onclick="report()" class="sbt-btn">
+                            <br/><br/>
+                            <button onclick="myFunction()" class="snd-btn"><i class="fas fa-home icon-styl"></i> </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

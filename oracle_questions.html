@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORACLE Paper</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css_own/test_oracle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+  integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="pro_js/on_mysql.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="first-heading">ORACLE MCQ : Multiple Choice Questions</h1>
+                <p><strong>1.SNAPSHOT is used for_____ .</strong><br />
+                    <input type="radio" name="qs1">A. Synonym,<br />
+                    <input type="radio" name="qs1"> B. Table space,<br />
+                    <input type="radio" name="qs1">C. System server,<br />
+                    <input type="radio" name="qs1" id="ans1">D. Dynamic data replication<br />
+                 </p>
+                    <p><strong>2.We can create SNAPSHOTLOG for[DBA]</strong><br />
+                    <input type="radio" name="qs2" id="ans2">A. Simple snapshots,<br />
+                    <input type="radio" name="qs2">B. Complex snapshots,<br />
+                    <input type="radio" name="qs2">C. Both A &amp; B,<br />
+                    <input type="radio" name="qs2">D. Neither A nor B<br />
+                    </p>
+                    <p><strong>3.Transactions per rollback segment is derived from[DBA]</strong><br />
+                        <input type="radio" name="qs3"> A. Db_Block_Buffers,<br />
+                        <input type="radio" name="qs3" id="ans3"> B. Processes,<br />
+                        <input type="radio" name="qs3">C. Shared_Pool_Size,<br />
+                        <input type="radio" name="qs3">D. None of the above<br />
+                   </p>
+                    <p><strong>4.ENQUEUE resources parameter information is derived from[DBA]</strong><br />
+                        <input type="radio" name="qs4" id="ans4">A. Processes or DDL_LOCKS and DML_LOCKS,<br />
+                        <input type="radio" name="qs4">B. LOG_BUFFER,<br />
+                        <input type="radio" name="qs4">C. DB__BLOCK_SIZE..<br />
+                    </p>
+                    <p><strong>5.LGWR process writes information into</strong><br />
+                        <input type="radio" name="qs5">A. Database files,<br />
+                        <input type="radio" name="qs5">B. Control files,<br />
+                        <input type="radio" name="qs5" id="ans5">C. Redolog files,<br />
+                        <input type="radio" name="qs5">D. All the above.<br />
+                    </p>
+                    <p><strong>6.SET TRANSACTION USE ROLLBACK SEGMENT is used to create user objects in a particular Tablespace</strong><br />
+                        <input type="radio" name="qs6">A. True,<br />
+                        <input type="radio" name="qs6" id="ans6">B. False<br />
+                    </p>
+                    <p><strong>7.Databases overall structure is maintained in a file called</strong><br />
+                        <input type="radio" name="qs7"> A. Redolog file,<br />
+                        <input type="radio" name="qs7">B. Data file,<br />
+                        <input type="radio" name="qs7" id="ans7">C. Control file,<br />
+                        <input type="radio" name="qs7">D. All of the above.<br />
+                  </p>
+                    <p><strong>8.These following parameters are optional in init.ora parameter file DB_BLOCK_SIZE, PROCESSES</strong><br />
+                        <input type="radio" name="qs8">A. True,<br />
+                        <input type="radio" name="qs8" id="ans8">B. False<br />
+                    </p>
+                    <p><strong>9.Constraints cannot be exported through EXPORT command</strong><br />
+                        <input type="radio" name="qs9">A. True,<br />
+                        <input type="radio" name="qs9" id="ans9">B. False<br />
+                    </p>
+                    <p><strong>10.It is very difficult to grant and manage common privileges needed by different groups of database users using the roles</strong><br />
+                        <input type="radio" name="qs10">A. True,<br />
+                        <input type="radio" name="qs10" id="ans10"> B. False<br />
+                    </p>
+                    <p><strong>11.What is difference between a DIALOG WINDOW and a DOCUMENT WINDOW regarding moving the window with respect to the application window</strong><br />
+                        <input type="radio" name="qs11">A. Both windows behave the same way as far as moving the window is concerneD.<br />
+                        <input type="radio" name="qs11">B. A document window can be moved outside the application window while a dialog window cannot be moved<br />
+                        <input type="radio" name="qs11" id="ans11">C. A dialog window can be moved outside the application window while a document window cannot be moved<br />
+                    </p>
+                    <p><strong>12.What is the difference between a MESSAGEBOX and an ALERT</strong><br />
+                        <input type="radio" name="qs12"> A. A messagebox can be used only by the system and cannot be used in user application while an alert can be used in user application also.<br />
+                        <input type="radio" name="qs12"> B. A alert can be used only by the system and cannot be use din user application while an messagebox can be used in user application also.<br />
+                        <input type="radio" name="qs12" id="ans12">C. An alert requires an response from the userwhile a messagebox just flashes a message<br />
+                    and only requires an acknowledment from the user<br />
+                    <input type="radio" name="qs12">D. An message box requires an response from the userwhile a alert just flashes a message an only<br />
+                    requires an acknowledment from the user<br />
+                    </p>
+                    <p><strong>13.Which of the following is not an reason for the fact that most of the processing is done at the server ?</strong><br />
+                        <input type="radio" name="qs13">A. To reduce network traffiC.<br />
+                        <input type="radio" name="qs13">B. For application sharing,<br />
+                        <input type="radio" name="qs13">C. To implement business rules centrally,<br />
+                        <input type="radio" name="qs13" id="ans13">D. None of the above<br />
+                    </p>
+                    <p><strong>14.Can a DIALOG WINDOW have scroll bar attached to it ?</strong><br />
+                        <input type="radio" name="qs14">A. Yes,<br />
+                        <input type="radio" name="qs14" id="ans14">B. No<br />
+                    Ans : B</p>
+                    <p><strong>15.Which of the following is not an advantage of GUI systems ?</strong><br />
+                        <input type="radio" name="qs15">A. Intuitive and easy to use.,<br />
+                        <input type="radio" name="qs15">B. GUI’s can display multiple applications in multiple windows<br />
+                        <input type="radio" name="qs15">C. GUI’s provide more user interface objects for a developer<br />
+                        <input type="radio" name="qs15" id="ans15">D. None of the above<br />
+                    </p>
+                    <p><strong>16.What is the difference between a LIST BOX and a COMBO BOX ?</strong><br />
+                        <input type="radio" name="qs16" id="ans16">A. In the list box, the user is restricted to selecting a value from a list but in a combo box the user can type in value which is not in the list<br />
+                        <input type="radio" name="qs16">B. A list box is a data entry area while a combo box can be used only for control purposes<br />
+                        <input type="radio" name="qs16">C. In a combo box, the user is restricted to selecting a value from a list but in a list box the<br />
+                    </p>
+                    <p><strong>17.When do you get a .PLL extension ?</strong><br />
+                        <input type="radio" name="qs17" id="ans17">A. Save Library file<br />
+                        <input type="radio" name="qs17">B. Generate Library file<br />
+                        <input type="radio" name="qs17">C. Run Library file<br />
+                        <input type="radio" name="qs17">D. None of the above<br />
+                    </p>
+                    <p><strong>18.In a CLIENT/SERVER environment , which of the following would not be done at the client ?</strong><br />
+                        <input type="radio" name="qs18">A. User interface part,<br />
+                        <input type="radio" name="qs18">B. Data validation at entry line,<br />
+                        <input type="radio" name="qs18"> C. Responding to user events,<br />
+                        <input type="radio" name="qs18" id="ans18"> D. None of the above<br />
+                    </p>
+                    <p><strong>19.Why is it better to use an INTEGRITY CONSTRAINT to validate data in a table than to use a STORED<br />
+                    PROCEDURE ?</strong><br />
+                    <input type="radio" name="qs19" id="ans19">A. Because an integrity constraint is automatically checked while data is inserted into or updated in a table while a stored procedure has to be specifically invoked<br />
+                    <input type="radio" name="qs19">B. Because the stored procedure occupies more space in the database than a integrity constraint definition<br />
+                    <input type="radio" name="qs19">C. Because a stored procedure creates more network traffic than a integrity constraint definition<br />
+                    </p>
+                    <p><strong>20.Which of the following is not an advantage of a client/server model ?</strong><br />
+                        <input type="radio" name="qs20">A. A client/server model allows centralised control of data and centralised implementation of business rules.<br />
+                        <input type="radio" name="qs20">B. A client/server model increases developer;s productivity<br />
+                        <input type="radio" name="qs20" id="ans20"> C. A client/server model is suitable for all applications<br />
+                        <input type="radio" name="qs20">D. None of the above.<br />
+                    </p>
+                    <p><strong>21.What does DLL stands for ?</strong><br />
+                        <input type="radio" name="qs21"> A. Dynamic Language Library<br />
+                        <input type="radio" name="qs21" id="ans21">B. Dynamic Link Library<br />
+                        <input type="radio" name="qs21">C. Dynamic Load Library<br />
+                        <input type="radio" name="qs21">D. None of the above<br />
+                    </p>
+                    <p><strong>22.POST-BLOCK trigger is a</strong><br />
+                        <input type="radio" name="qs22" id="ans22">A. Navigational trigger<br />
+                        <input type="radio" name="qs22">B. Key trigger<br />
+                        <input type="radio" name="qs22"> C. Transactional trigger<br />
+                        <input type="radio" name="qs22"> D. None of the above<br />
+                    </p>
+                    <p><strong>23.The system variable that records the select statement that SQL * FORMS most recently used<br />
+                    to populate a block is</strong><br />
+                    <input type="radio" name="qs23"> A. SYSTEM.LAST_RECORD<br />
+                    <input type="radio" name="qs23">B. SYSTEM.CURSOR_RECORD<br />
+                    <input type="radio" name="qs23">C. SYSTEM.CURSOR_FIELD<br />
+                    <input type="radio" name="qs23" id="ans23">D. SYSTEM.LAST_QUERY<br />
+                    </p>
+                    <p><strong>24.Which of the following is TRUE for the ENFORCE KEY field</strong><br />
+                    1. ENFORCE KEY field characterstic indicates the source of the value that SQL*FORMS uses to populate the field<br />
+                    2. A field with the ENFORCE KEY characterstic should have the INPUT ALLOWED charaterstic turned off<br />
+                    <input type="radio" name="qs24" id="ans24">A. Only 1 is TRUE<br />
+                    <input type="radio" name="qs24">B. Only 2 is TRUE<br />
+                    <input type="radio" name="qs24">C. Both 1 and 2 are TRUE<br />
+                    <input type="radio" name="qs24">D. Both 1 and 2 are FALSE<br />
+                    </p>
+                    <p><strong>25.What is the maximum size of the page ?</strong><br />
+                        <input type="radio" name="qs25">A. Characters wide &amp; 265 characters length<br />
+                        <input type="radio" name="qs25" id="ans25">B. Characters wide &amp; 265 characters length<br />
+                        <input type="radio" name="qs25">C. Characters wide &amp; 80 characters length<br />
+                        <input type="radio" name="qs25">D. None of the above<br />
+                    </p>
+                    <p><strong>26.A FORM is madeup of which of the following objects</strong><br />
+                        <input type="radio" name="qs26"> A. block, fields only,<br />
+                        <input type="radio" name="qs26"> B. blocks, fields, pages only,<br />
+                        <input type="radio" name="qs26" id="ans26"> C. blocks, fields, pages, triggers and form level procedures,<br />
+                        <input type="radio" name="qs26"> D. Only blocks.<br />
+                    </p>
+                    <p><strong>27.For the following statements which is true</strong><br />
+                    1. Page is an object owned by a form<br />
+                    2. Pages are a collection of display information such as constant text and graphics.<br />
+                    <input type="radio" name="qs27">A. Only 1 is TRUE<br />
+                    <input type="radio" name="qs27" id="ans27"> B. Only 2 is TRUE<br />
+                    <input type="radio" name="qs27"> C. Both 1 &amp; 2 are TRUE<br />
+                    <input type="radio" name="qs27"> D. Both are FALSE<br />
+                    </p>
+                    <p><strong>28.The packaged procedure that makes data in form permanent in the Database is</strong><br />
+                        <input type="radio" name="qs28"> A. Post<br />
+                        <input type="radio" name="qs28"> B. Post form<br />
+                        <input type="radio" name="qs28" id="ans28"> C. Commit form<br />
+                        <input type="radio" name="qs28"> D. None of the above<br />
+                   </p>
+                    <p><strong>29.Which of the following is TRUE for the SYSTEM VARIABLE $$date$$</strong><br />
+                        <input type="radio" name="qs29">A. Can be assigned to a global variable<br />
+                        <input type="radio" name="qs29" id="ans29">B. Can be assigned to any field only during design time<br />
+                        <input type="radio" name="qs29">C. Can be assigned to any variable or field during run time<br />
+                        <input type="radio" name="qs29">D. None of the above<br />
+                </p>
+                    <p><strong>30.Which of the following packaged procedure is UNRESTRICTED ?</strong><br />
+                        <input type="radio" name="qs30">A. CALL_INPUT,<br />
+                        <input type="radio" name="qs30">B. CLEAR_BLOCK,<br />
+                        <input type="radio" name="qs30">C. EXECUTE_QUERY,<br />
+                        <input type="radio" name="qs30" id="ans30">D.  USER_EXIT<br />
+                </p>
+                    <p><strong>32. Identify the RESTRICTED packaged procedure from the following</strong><br />
+                        <input type="radio" name="qs31"> A. USER_EXIT,<br />
+                        <input type="radio" name="qs31">B. MESSAGE,<br />
+                        <input type="radio" name="qs31">C. BREAK,<br />
+                        <input type="radio" name="qs31" id="ans31">D. EXIT_FORM<br />
+                    </p>
+                    <p><strong>32.What is SQL*FORMS</strong><br />
+                        <input type="radio" name="qs32" id="ans32">A. SQL*FORMS is a 4GL tool for developing &amp; executing Oracle based interactive applications.<br />
+                        <input type="radio" name="qs32">B. SQL*FORMS is a 3GL tool for connecting to the Database.<br />
+                        <input type="radio" name="qs32">C. SQL*FORMS is a reporting tool<br />
+                        <input type="radio" name="qs32">D. None of the above.<br />
+                    </p>
+                    <p><strong>33.Name the two files that are created when you generate a form using Forms 3.0</strong><br />
+                        <input type="radio" name="qs33"> A. FMB &amp; FMX,<br />
+                        <input type="radio" name="qs33"> B. FMR &amp; FDX,<br />
+                        <input type="radio" name="qs33" id="ans33"> C. INP &amp; FRM,<br />
+                        <input type="radio" name="qs33"> D. None of the above<br />
+                    </p>
+                    <p><strong>34.Which of the folowing is TRUE for a ERASE packaged procedure</strong><br />
+                    1. ERASE removes an indicated Global variable &amp; releases the memory associated with it<br />
+                    2. ERASE is used to remove a field from a page<br />
+                    <input type="radio" name="qs34" id="ans34"> A. Only 1 is TRUE<br />
+                    <input type="radio" name="qs34"> B. Only 2 is TRUE<br />
+                    <input type="radio" name="qs34"> C. Both 1 &amp; 2 are TRUE<br />
+                    <input type="radio" name="qs34"> D. Both 1 &amp; 2 are FALSE<br />
+                    </p>
+                    <p><strong>35.All datafiles related to a Tablespace are removed when the Tablespace is dropped</strong><br />
+                        <input type="radio" name="qs35"> A. TRUE<br />
+                        <input type="radio" name="qs35" id="ans35">B. FALSE<br />
+                    </p>
+                    <p><strong>36.Size of Tablespace can be increased by</strong><br />
+                        <input type="radio" name="qs36">A. Increasing the size of one of the Datafiles<br />
+                        <input type="radio" name="qs36" id="ans36"> B. Adding one or more Datafiles<br />
+                        <input type="radio" name="qs36">C. Cannot be increased<br />
+                        <input type="radio" name="qs36"> D. None of the above<br />
+                    </p>
+                    <p><strong>37.Multiple Tablespaces can share a single datafile</strong><br />
+                        <input type="radio" name="qs37"> A. TRUE<br />
+                        <input type="radio" name="qs37" id="ans37"> B. FALSE<br />
+                    </p>
+                    <p><strong>38.A set of Dictionary tables are created</strong><br />
+                        <input type="radio" name="qs38" id="ans38"> A. Once for the Entire Database<br />
+                        <input type="radio" name="qs38"> B. Every time a user is created<br />
+                        <input type="radio" name="qs38"> C. Every time a Tablespace is created<br />
+                        <input type="radio" name="qs38">D. None of the above<br />
+                    </p>
+                    <p><strong>39.Datadictionary can span across multiple Tablespaces</strong><br />
+                        <input type="radio" name="qs39">A. TRUE<br />
+                        <input type="radio" name="qs39" id="ans39">B. FALSE<br />
+                    </p>
+                    <p><strong>40.What is a DATABLOCK</strong><br />
+                        <input type="radio" name="qs40"> A. Set of Extents<br />
+                        <input type="radio" name="qs40"> B. Set of Segments<br />
+                        <input type="radio" name="qs40" id="ans40"> C. Smallest Database storage unit<br />
+                        <input type="radio" name="qs40">D. None of the above<br />
+                    </p>
+                    <p><strong>41.Can an Integrity Constraint be enforced on a table if some existing table data does not satisfy the constraint</strong><br />
+                        <input type="radio" name="qs41">A. Yes<br />
+                        <input type="radio" name="qs41" id="ans41">B. No<br />
+                    </p>
+                    <p><strong>42. A column defined as PRIMARY KEY can have NULL’s</strong><br />
+                        <input type="radio" name="qs42">A. TRUE<br />
+                        <input type="radio" name="qs42" id="ans42">B. FALSE<br />
+                    </p>
+                    <p><strong>43. A Transaction ends</strong><br />
+                        <input type="radio" name="qs43"> A. Only when it is Committed<br />
+                        <input type="radio" name="qs43"> B. Only when it is Rolledback<br />
+                        <input type="radio" name="qs43" id="ans43">C. When it is Committed or Rolledback<br />
+                        <input type="radio" name="qs43">D. None of the above<br />
+                    </p>
+                    <p><strong>44. A Database Procedure is stored in the Database</strong><br />
+                        <input type="radio" name="qs44"> A. In compiled form<br />
+                        <input type="radio" name="qs44">B. As source code<br />
+                        <input type="radio" name="qs44" id="ans44"> C. Both A &amp; B<br />
+                        <input type="radio" name="qs44">D. Not stored<br />
+                  </p>
+                    <p><strong>45.A database trigger doesnot apply to data loaded before the definition of the trigger</strong><br />
+                        <input type="radio" name="qs45" id="ans45">A. TRUE<br />
+                        <input type="radio" name="qs45">B. FALSE<br />
+                   </p>
+                    <p><strong>46.Dedicated server configuration is</strong><br />
+                        <input type="radio" name="qs46">A. One server process – Many user processes<br />
+                        <input type="radio" name="qs46">B. Many server processes – One user process<br />
+                        <input type="radio" name="qs46" id="ans46">C. One server process – One user process<br />
+                        <input type="radio" name="qs46">D. Many server processes – Many user processes<br />
+                   </p>
+                    <p><strong>47. Which of the following does not affect the size of the SGA</strong><br />
+                        <input type="radio" name="qs47"> A. Database buffer<br />
+                        <input type="radio" name="qs47">B. Redolog buffer<br />
+                        <input type="radio" name="qs47" id="ans47">C. Stored procedure<br />
+                        <input type="radio" name="qs47">D. Shared pool<br />
+                    </p>
+                    <p><strong>48. What does a COMMIT statement do to a CURSOR</strong><br />
+                        <input type="radio" name="qs48">A. Open the Cursor<br />
+                        <input type="radio" name="qs48">B. Fetch the Cursor<br />
+                        <input type="radio" name="qs48">C. Close the Cursor<br />
+                        <input type="radio" name="qs48" id="ans48">D. None of the above<br />
+                   </p>
+                    <p><strong>49.Which of the following is TRUE</strong><br />
+                    1. Host variables are declared anywhere in the program<br />
+                    2. Host variables are declared in the DECLARE section<br />
+                    <input type="radio" name="qs49">A. Only 1 is TRUE<br />
+                    <input type="radio" name="qs49" id="ans49">B. Only 2 is TRUE<br />
+                    <input type="radio" name="qs49">C. Both 1 &amp; 2are TRUE<br />
+                    <input type="radio" name="qs49">D. Both are FALSE<br />
+                   </p>
+                    <p><strong>50. Which of the following is NOT VALID is PL/SQL</strong><br />
+                        <input type="radio" name="qs50">A. Bool boolean;<br />
+                        <input type="radio" name="qs50" id="ans50">B. NUM1, NUM2 number;<br />
+                        <input type="radio" name="qs50">C. deptname dept.dname%type;<br />
+                        <input type="radio" name="qs50">D. date1 date := sysdate<br />
+                  </p>
+                    <br/>
+                
+                    <div class="container fill_btn">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <input type="button" name="btn" value="Submit Here...."  onclick="result()" class="sbt-btn">
+                                <br/><br/>
+                                <button onclick="myFunction()" class="snd-btn"><i class="fas fa-home icon-styl"></i> </button>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
