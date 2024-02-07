@@ -1,0 +1,177 @@
+.first-heading{
+    font-family: "Sofia", sans-serif;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+.icon-styl{
+    font-size: 1.5em;
+    color: black;
+    margin-top: 2px;
+    transition:0.9s;
+}
+.icon-styl:hover{
+    transform:rotatey(360deg) ;
+}
+.nav-con{
+    background-color: rgba(248, 247, 247, 0.822);
+    text-align: center;
+    border-radius: 0.2em;
+    color:black;
+    transition: 0s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-con:hover{
+    background-color: rgb(57, 173, 57);
+}
+.pro-tile{
+    background-color:rgb(197, 171, 171) ;
+    margin-top: 40px;
+    padding-bottom: 130px;
+}
+.pro-tile-1-img{
+    height: 160px;
+    width: 120px; 
+    margin-left: 25px; 
+    margin-top: 150px; 
+    border-color: black;
+    border-style: solid;
+    border-width:15px 6px 6px 6px;
+    transition: 0.1s;
+    border-radius: 4px;
+    opacity: 0.8;
+    box-shadow: 5;
+}
+.pro-tile-1-img:hover{
+    box-shadow: 5px 5px 10px blanchedalmond;
+    opacity: 5;
+}
+.pro-tile-2-img{
+    height: 160px;
+    width: 120px; 
+    margin-left: 25px;  
+    margin-top: 150px;
+    border-color: black;
+    border-style: solid;
+    border-width:6px 6px 15px 6px;
+    transition: 0.1s;
+    border-radius: 4px;
+    opacity: 0.8;
+    box-shadow: 5;
+}
+.pro-tile-2-img:hover{
+    box-shadow: 5px 5px 10px blanchedalmond;
+    opacity: 5;
+}
+.pro-tile-3-img{
+    height: 160px;
+    width: 120px; 
+    margin-left: 25px;
+    margin-top: 150px;  
+    border-color: black;
+    border-style: solid;
+    border-width:15px 6px 6px 6px;
+    transition: 0.1s;
+    border-radius: 4px;
+    opacity: 0.8;
+    box-shadow: 5;
+}
+.pro-tile-3-img:hover{
+    box-shadow: 5px 5px 10px blanchedalmond;
+    opacity: 5;
+}
+.pro-tile-4-img{
+    height: 160px;
+    width: 120px; 
+    margin-left: 25px;
+    margin-top: 150px;  
+    border-color: black;
+    border-style: solid;
+    border-width:6px 6px 15px 6px;
+    transition: 0.1s;
+    border-radius: 4px;
+    opacity: 0.8;
+    box-shadow: 5;
+}
+.pro-tile-4-img:hover{
+    box-shadow: 5px 5px 10px blanchedalmond;
+    opacity: 5;
+}
+.pro-tile-5-img{
+    height: 160px;
+    width: 120px; 
+    margin-left: 25px;
+    margin-top: 150px;  
+    border-color: black;
+    border-style: solid;
+    border-width:15px 6px 6px 6px;
+    transition: 0.1s;
+    border-radius: 4px;
+    opacity: 0.8;
+    box-shadow: 5;
+}
+.pro-tile-5-img:hover{
+    box-shadow: 5px 5px 10px blanchedalmond;
+    opacity: 5;
+}
+.pro-tile-6-img{
+    height: 160px;
+    width: 120px; 
+    margin-left: 30px;
+    margin-top: 150px;  
+    border-color: black;
+    border-style: solid;
+    border-width:6px 6px 15px 6px;
+    transition: 0.1s;
+    border-radius: 4px;
+    opacity: 0.8;
+    box-shadow: 5;
+}
+.pro-tile-6-img:hover{
+    box-shadow: 5px 5px 10px blanchedalmond;
+    opacity: 5;
+}
+.bottom-end{
+    background-color: rgb(235, 231, 235);
+    height: px;
+    color: rgb(156, 63, 63);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.end-icon{
+    font-size:1.8em;
+    text-align:center;
+    color:#3b5998;
+}
+.ic{
+    transition:0.9s;
+}
+.ic:hover{
+    transform:rotatey(360deg) ;
+}
+.twi-ic{
+    transition:0.9s;
+    color: rgb(29, 161, 242);
+}
+.twi-ic:hover{
+    transform:rotatey(360deg) ;
+    transition:0.9s;
+}
+.insta-ic{
+    color: #fbad50;
+    transition:0.9s;
+}
+.insta-ic:hover{
+    transform:rotatey(360deg) ;
+    transition:0.9s;
+}
+.what-ic{
+    color:#25D366;  
+    transition:0.9s;  
+}
+.what-ic:hover{
+    transform:rotatey(360deg) ;
+    transition:0.9s;
+}
+
+
+

@@ -1,0 +1,138 @@
+body{
+    margin-right: 25px;
+    margin-left: 15px;
+}
+.logo-div{
+    border-style: solid;
+    border-color: silver;
+    border-width:1px 0px 0px 0px;
+    margin-left:20%;
+    margin-right:20% ;
+}
+.nav-link{
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 170, 197);
+}
+.intro-sec{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1em;
+}
+.slide-show{
+    width: 100%;
+    height: 600px;
+    animation: img_slide 20s ease-in-out infinite;
+}
+@keyframes img_slide{
+    0%, 100%{
+        background-image: url(../img/1.jpg);
+        background-size: 100%; 
+    }
+    20%{
+        background-image: url(../img/2.jpg);
+        background-size: 100%;
+    }
+    40%{
+        background-image: url(../img/3.jpg);
+        background-size: 100%;
+    }
+    60%{
+        background-image: url(../img/4.jpg);
+        background-size: 100%;
+    }
+    80%{
+        background-image: url(../img/5.jpg);
+        background-size: 100%;
+    }
+}
+.banner-lower-sec{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(93, 93, 95);
+    width: 100%;
+ }
+ .banner-lower-heading{
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgb(93, 93, 95);
+    padding-bottom: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(93, 93, 95);
+ }
+ .banner-lower-content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(93, 93, 95);
+    padding-top: 25px;
+    font-size: 1em;
+ }
+.banner-lower-content-img{
+    height: 90%;
+    width: 100%;
+    content: center;
+    padding-top: 25px;
+    transition: 0.3s;
+}
+.banner-lower-content-img:hover{
+    opacity:0.7;
+    cursor: pointer;
+}
+.gallery-sec{
+    background-color: rgb(47, 107, 163);
+    padding-left: 8%;
+    padding-top: 5%;
+    padding-bottom:5%;
+}
+.gallery-first-pic{
+    width:50%;
+    height:100%;
+    padding: 4px;
+    margin-top: 4px;
+    border-width:35px 8px 8px 8px;
+    border-style:solid;
+    border-color:rgb(247, 184, 103); 
+    transition: transform 300ms ease-in-out;
+}
+.gallery-first-pic:hover{
+    transform: scale(1.2);
+   cursor: pointer;
+   border-color: whitesmoke ;
+}
+.gallery-second-pic{
+    width:50%;
+    height:100%;
+    padding: 4px;
+    border-width:8px 8px 35px 8px;
+    border-style:solid;
+    border-color:rgb(247, 184, 103); 
+    transition: transform 300ms ease-in-out;
+}
+.gallery-second-pic:hover{
+    transform: scale(1.2);
+   cursor: pointer;
+   border-color: whitesmoke ;
+}
+.inquire-sec{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: rgb(45, 45, 48);
+    color: rgb(124, 6, 25);
+}
+.inquire-link{
+    text-decoration: none;
+    color: royalblue;
+}
+.participant-img1{
+    width:444px;
+    height: 222px;
+}
+.participant-img2{
+    width:180px;
+    height:150px ;
+    margin-left: 150px;
+    margin-top: 40px;
+}

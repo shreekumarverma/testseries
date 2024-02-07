@@ -1,0 +1,54 @@
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgb(243, 241, 114);
+    background-size: cover;
+    font-size: 1.2em;
+    font-family: "Trirong", serif;
+}
+.first-heading{
+    font-family: "Sofia", sans-serif;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+.first-heading:hover{
+    text-shadow: 3px 3px 3px #413f3f;
+}
+.fill_btn{
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin-left: 500px;
+        margin-bottom: 25px;
+        text-align: center;
+}
+.sbt-btn{
+    width: 185px ;
+    height: 50px ;
+    color:whitesmoke;
+    background-color: rgb(255, 136, 0);
+    border-style: none;
+    font-size: 1.1em;
+    font-family:"Sofia", sans-serif;
+}
+.sbt-btn:hover{
+    color: rgb(255, 136, 0);
+    background-color:whitesmoke ;
+}
+
+.snd-btn{
+    width: 185px ;
+    height: 50px ;
+    color:whitesmoke;
+    background-color: rgb(42, 136, 165);
+    border-style: none;
+}
+.snd-btn:hover{
+    color: rgb(42, 136, 165);
+    background-color: whitesmoke;
+}
+.icon-styl{
+    font-size: 1.8em;
+}
+

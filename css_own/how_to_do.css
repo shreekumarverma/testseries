@@ -1,0 +1,78 @@
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-txt{
+    color: rgb(45, 52, 54);
+    font-family: "Sofia", sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px #d4d4d4;
+}
+.top-div{
+    width: 50%;
+    height: 350px;
+    margin-top: 25px;
+    text-align: center;
+}
+.intruction{
+    text-decoration: none;
+    color: rgb(36, 26, 10);
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.intruction:hover{
+    text-decoration: none;
+    color: rgb(49, 20, 20);
+    text-shadow: 3px 3px 3px firebrick;
+}
+.greeting{
+    text-align: right;
+    font-size: 1.8em;
+    font-family: "Sofia", sans-serif;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px #ababab;
+}
+.bottom-end{
+    background-color: rgb(185, 184, 185);
+    height: px;
+    color: rgb(156, 63, 63);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.end-icon{
+    font-size:1.8em;
+    text-align:center;
+    color:#122f6e;
+}
+.ic{
+    transition:0.9s;
+}
+.ic:hover{
+    transform:rotatey(360deg) ;
+}
+.twi-ic{
+    transition:0.9s;
+    color: rgb(0, 157, 255);
+}
+.twi-ic:hover{
+    transform:rotatey(360deg) ;
+    transition:0.9s;
+}
+.insta-ic{
+    color: #ff8c00;
+    transition:0.9s;
+}
+.insta-ic:hover{
+    transform:rotatey(360deg) ;
+    transition:0.9s;
+}
+.what-ic{
+    color:#00ff5e;  
+    transition:0.9s;  
+}
+.what-ic:hover{
+    transform:rotatey(360deg) ;
+    transition:0.9s;
+}

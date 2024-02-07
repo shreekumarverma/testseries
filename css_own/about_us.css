@@ -1,0 +1,20 @@
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first-heading{
+    font-family: "Sofia", sans-serif;
+    font-size: 80px;
+    text-shadow: 3px 3px 3px #ecebeb;
+    margin-top: 80px;
+}
+.first-heading:hover{
+    text-shadow: 3px 3px 3px #413f3f;
+}
+.para{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    color: rgb(240, 33, 33);
+    text-align: center;
+}
